@@ -1,0 +1,24 @@
+{
+  "name": "adavanced-data-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generators-and-iterators.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnderAmorim/adavanced-data-types-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnderAmorim/adavanced-data-types-js/issues"
+  },
+  "homepage": "https://github.com/AnderAmorim/adavanced-data-types-js#readme",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

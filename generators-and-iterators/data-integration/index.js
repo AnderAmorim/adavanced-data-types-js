@@ -29,7 +29,7 @@ async function processDbData() {
 async function* processDbDataGen() {
     const products = await myDB()
 
-    for (const [index,product] of products.entries()) {
+    for (const product of products) {
       const { data: productInfo } = (await axios.get(`${PRODUCTS_URL}?productName=${product}`))
       const { data: cartData } = (await axios.post(CREATE_CART_URL, productInfo))
       yield cartData
